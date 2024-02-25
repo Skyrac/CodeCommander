@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysUndKollektionen", "Ar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenbankprogrammierung", "Datenbankprogrammierung\Datenbankprogrammierung.csproj", "{4F5D43F2-C3D2-42F2-A8A8-F26D239C0514}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{EA1F2A67-DAF3-46D0-818B-CB2255F78534}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,9 +61,16 @@ Global
 		{4F5D43F2-C3D2-42F2-A8A8-F26D239C0514}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5D43F2-C3D2-42F2-A8A8-F26D239C0514}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5D43F2-C3D2-42F2-A8A8-F26D239C0514}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF7F8BA5-31CB-4B5F-BE64-D8118CBA0AA6} = {EA1F2A67-DAF3-46D0-818B-CB2255F78534}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C3EFE50D-FB3B-4273-8F49-BB94CD3020A7}
